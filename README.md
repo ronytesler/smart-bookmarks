@@ -47,6 +47,8 @@ heuristic produces fewer than 3 confident tags — pass it the title + meta desc
 - unit tests
 - ui tests
 - use async orm.
+- use 'use client' only where needed.
+- use arrow functions if we want.
 - use environment variables for some of the variables.
 - fix pagination. doesn't work well when adding and removing bookmarks.
 - use a class for the pagination response instead of defining the json in the return statement.
